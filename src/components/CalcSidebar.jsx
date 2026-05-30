@@ -7,11 +7,12 @@ const styles = {
   sidebar: {
     background: 'var(--surface)',
     borderRight: '1px solid var(--border)',
-    overflowY: 'auto',
+    overflowY: 'scroll',
     padding: '14px',
     display: 'flex',
     flexDirection: 'column',
     gap: 0,
+    height: '100%',
   },
   pathTabs: {
     display: 'grid',
